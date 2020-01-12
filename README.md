@@ -11,7 +11,7 @@ I do not guarantee anything.
 # Limitation
 
  TLSv1.3 not implement with ucspi-ssl-0.99 + openssl and qmail-spamcontrol-2.7.33.
- In paticular Gmail interoperablities broken at 01/01/2020.
+ In paticular Gmail interoperablities broken after 01/01/2020.
  
  Workaround
  
