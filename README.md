@@ -10,7 +10,7 @@ I do not guarantee anything.
 
 # Limitation
 
- TLSv1.3 not implement with ucspi-ssl-0.99e + openssl and qmail-spamcontrol-2.7.33.
+ TLSv1.3 not implement with ucspi-ssl-0.99e + openssl1.1.x and qmail-spamcontrol-2.7.33.
  In paticular, interoperablities with GMAIL (may need TLSv1.3) broken after 01/01/2020.
  
 Workaround
