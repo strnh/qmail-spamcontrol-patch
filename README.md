@@ -16,7 +16,6 @@ I do not guarantee anything.
 Workaround
  
 1) Use fehqlibs1.3 + ucspi-ssl-0.10.11 (it could recieved with TLSv1.3 from gmail) 
- 
 2）modify or delete tlsdestinations ( SMTP TLS disabled. )
  
 # Usage
