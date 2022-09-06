@@ -11,6 +11,7 @@ mv $SPAMCNTDIR/Makefile $SPAMCONTDIR/Makefile.orig_$DATE
 cp qmail-spamcontrol/Makefile $SPAMCNTDIR/Makefile
 mv $QMAILDIR/Makefile $QMAILDIR/Makefile.orig_$DATE
 cp qmail/Makefile $QMAILDIR/Makefile
-cd $SPAMCNTDIR && make makesum
-cp $PORTS/distfiles/ucspi-ssl-0.99e.tgz $PORTS/distfiles/qmail
 
+cd $UCSPIDIR && make makesum
+cp $PORTS/distfiles/ucspi-ssl-0.99e.tgz $PORTS/distfiles/qmail
+cd $SPAMCNTDIR && make makesum
