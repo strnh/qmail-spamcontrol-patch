@@ -7,7 +7,7 @@ QMAILDIR=/usr/ports/mail/qmail
 UCSPIDIR=/usr/ports/sysutils/ucspi-ssl
 
 cd /usr/ports/distfiles/qmail
-fetch https://github.com/strnh/qmail-spamcontrol-patch/spamcontrol-2733.tgz
+fetch https://github.com/strnh/qmail-spamcontrol-patch/raw/master/spamcontrol-2733.tgz
 
 cp -p extra-patch-spamcontrol-tls_timeout.c $QMAILDIR/files
 mv $SPAMCNTDIR/Makefile $SPAMCONTDIR/Makefile.orig_$DATE
